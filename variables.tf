@@ -7,3 +7,4 @@ variable "ami" {}
 variable "instance_type" {}
 variable "monitoring" {}
 variable "tags" {}
+variable "email" {}

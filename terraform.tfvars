@@ -17,3 +17,6 @@ tags = {
   Terraform   = "true"
   Environment = "dev"
 }
+
+#-------------Cloud Watch Cpu-------------------
+email = "pasiechnyk.ms@gmail.com"
