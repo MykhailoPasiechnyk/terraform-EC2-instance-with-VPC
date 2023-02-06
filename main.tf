@@ -31,3 +31,10 @@ module "ec2_instance" {
   user_data              = file("user_data.sh")
   tags                   = var.tags
 }
+
+module "cpu_80_util_email" {
+  source = "./modules/cloud_watch_cpu_util"
+
+  email  = var.email
+  ec2_id = module.ec2_instance.id
+}
