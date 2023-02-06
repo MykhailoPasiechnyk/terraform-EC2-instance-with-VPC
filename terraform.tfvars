@@ -19,4 +19,4 @@ tags = {
 }
 
 #-------------Cloud Watch Cpu-------------------
-email = "pasiechnyk.ms@gmail.com"
+email = "example@gmail.com"
