@@ -22,8 +22,13 @@ $ export AWS_SECRET_ACCESS_KEY="secret_key"
 $ git clone https://github.com/MykhailoPasiechnyk/terraform-EC2-instance-with-VPC.git
 ```
 
+### CLoud Watch and SNS service:
+- __In terraform.tfvars set your email address to receive notifications when your cpu utilization > 80__
+- __You will receive a confirmation email after the resources have started__
+
 ### Run all resources in AWS:
 ```
+$ terraform init
 $ terraform apply
 ```
 
