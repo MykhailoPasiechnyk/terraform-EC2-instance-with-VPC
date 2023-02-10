@@ -28,6 +28,7 @@ module "ec2_instance" {
   monitoring             = var.monitoring
   vpc_security_group_ids = [module.security_group.sg_id]
   subnet_id              = module.vpc.public_subnet_id
+  key_name               = var.key_name
   user_data              = file("user_data.sh")
   tags                   = var.tags
 }
