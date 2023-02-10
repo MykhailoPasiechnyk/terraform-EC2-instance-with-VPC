@@ -8,3 +8,4 @@ variable "instance_type" {}
 variable "monitoring" {}
 variable "tags" {}
 variable "email" {}
+variable "key_name" {}
